@@ -1,0 +1,478 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Job Application Form</title>
+    <style>
+        body {
+            background-color: whitesmoke;
+            background-image: url("0111883.jpg");
+        }
+
+        form {
+            background-color: lightgoldenrodyellow;
+        }
+
+        table {
+            padding: 10px;
+            margin: 10px;
+            border: 10px;
+            box-shadow: 0 0 15px black;
+            border-radius: 8px;
+            width: 100%;
+        }
+
+        h2, h1 {
+            background-color: maroon;
+            padding: 10px;
+            text-align: center;
+            border-radius:10px;
+        }
+
+        td {
+            padding: 10px;
+            border-radius:10px;
+            text-align: left;
+        }
+
+        textarea {
+            text-align: right;
+            border-radius:10px;
+        }
+    </style>
+</head>
+<body>
+    <h1><small><u> Job Application Form </u></small></h1><hr>
+                                                         <h2 align="center" style="color: white"><big> Personal Information</big></h2>
+    <table>
+        <tr>
+            <td>
+                Firstname<span style="color: blue">*</span>
+            </td>
+            <td>
+                <input type="text" required placeholder="firstname">
+            </td>
+            <td>
+                Middlename
+            </td>
+            <td>
+                <input type="text" placeholder="middlename">
+            </td>
+            <td>
+                Lastname<span style="color: blue">*</span>
+            </td>
+            <td>
+                <input type="text" required placeholder="lastname">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Father's name<span style="color: blue">*</span>
+            </td>
+            <td>
+                <input type="text" required placeholder="father's name">
+            </td>
+            <td>
+                Mother's name<span style="color: blue">*</span>
+            </td>
+            <td>
+                <input type="text" placeholder="mother's name" required>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Current Address
+            </td>
+            <td>
+                <textarea rows="6" cols="25"></textarea>
+            </td>
+            <td>
+                Permanent Address
+            </td>
+            <td>
+                <textarea rows="6" cols="25"></textarea>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Phone Numbers:
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+
+            <td>
+                Landline Number
+            </td>
+            <td>
+                <input type="text" placeholder="landline">
+            </td>
+            <td>
+                Mobile Number<span style="color: blue">*</span>
+            </td>
+            <td>
+                <input type="text" placeholder="mobile" required>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Date-of-Birth<span style="color: blue">*</span>
+            </td>
+            <td>
+                <input type="date" required>
+            </td>
+            <td>
+                Place-of-birth
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Select Gender:
+            </td>
+            <td></td>
+            <td>
+                <input type="radio" value="male" name="gender">Male
+                <input type="radio" value="female" name="gender">Female
+
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Highest Qualification
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                Year of passing
+            </td>
+            <td>
+                <input type="month">
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Language Known
+            </td>
+            <td></td>
+            <td>
+                <input type="radio" name="lang" value="telugu">Telugu
+            </td>
+            <td>
+                <input type="radio" name="lang" value="hindi" >Hindi
+            </td>
+            <td>
+                <input type="radio" name="lang" value="english">English
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Hobbies
+            </td>
+            <td></td>
+            <td>
+                <input type="radio" name="hobi" value="coding">Coding
+            </td>
+            <td>
+                <input type="radio" name="hobi" value="eatting">eatting
+            </td>
+            <td>
+                <input type="radio" name="hobi" value="sleeping">sleeping
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                About Yourself
+            </td>
+            <td colspan="3">
+                <textarea rows="8" cols="80"></textarea>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Nationality
+            </td>
+            <td>
+                <select>
+                    <option>Indian</option>
+                    <option>American</option>
+                    <option>British</option>
+                    <option>Afgani</option>
+                    <option>Pakishtani</option>
+                    <option>Sri Lankan</option>
+                    <option>Australian</option>
+                </select>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Adhar Card Number<span style="color: blue">*</span>
+            </td>
+            <td>
+                <input type="txxt" required>
+            </td>
+            <td>
+                Adhar Card Number
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <h2 align="center" style="color: white"><big> Education Details</big></h2>
+
+    <table>
+        <tr>
+            <td>
+                S.No.
+            </td>
+            <td>
+                Qualification
+            </td>
+            <td>
+                Institute/University
+            </td>
+            <td>
+                Year of passing
+            </td>
+            <td>
+                Marks(%)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="month">
+            </td>
+            <td>
+                <input type="text" size="5">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="month">
+            </td>
+            <td>
+                <input type="text" size="5">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="month">
+            </td>
+            <td>
+                <input type="text" size="5">
+            </td>
+        </tr>
+    </table>
+
+    <h2 align="center" style="color: white"><big>Work Experience</big></h2>
+
+    <table>
+        <tr>
+            <td>
+                S.No.
+            </td>
+            <td>
+                Company Address
+            </td>
+            <td>
+                Work/Roles
+            </td>
+            <td>
+                From
+            </td>
+            <td>
+                To
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1
+            </td>
+            <td>
+                <textarea rows="8" cols="25"></textarea>
+            </td>
+            <td>
+                <textarea rows="8" cols="25"></textarea>
+            </td>
+            <td>
+                <input type="month">
+            </td>
+            <td>
+                <input type="month">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td>
+                <textarea rows="8" cols="25"></textarea>
+            </td>
+            <td>
+                <textarea rows="8" cols="25"></textarea>
+            </td>
+            <td>
+                <input type="month">
+            </td>
+            <td>
+                <input type="month">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3
+            </td>
+            <td>
+                <textarea rows="8" cols="25"></textarea>
+            </td>
+            <td>
+                <textarea rows="8" cols="25"></textarea>
+            </td>
+            <td>
+                <input type="month">
+            </td>
+            <td>
+                <input type="month">
+            </td>
+        </tr>
+
+    </table>
+
+    <h2 align="center" style="color: white"><big>Other Details</big></h2>
+
+    <table>
+        <tr>
+            <td colspan="2">
+                Job Type
+            </td>
+            <td>
+                <input type="radio" name="job" value="permanent">Permanent
+            </td>
+            <td>
+                <input type="radio" name="job" value="contract">Contract
+            </td>
+            <td>
+                <input type="radio" name="job" value="other">Other
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Date of joining
+            </td>
+            <td>
+                <input type="date">
+            </td>
+            <td>
+                Time of joining
+            </td>
+            <td>
+                <input type="time">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Preferred job location
+            </td>
+            <td>
+                <input type="radio" name="loc" value="hyderabad"> Hyderabad
+            </td>
+            <td>
+                <input type="radio" name="loc" value="banglore"> Banglore
+            </td>
+            <td>
+                <input type="radio" name="loc" value="chennai"> Chennai
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Willing to relocate to Hyderabad
+            </td>
+            <td>
+                <input type="radio" name="rloc" value="yes"> Yes
+            </td>
+            <td>
+                <input type="radio" name="rloc" value="no"> No
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <input type="radio" required> I hereby declare that all the above information provided by me are correct.
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td>
+                <input type="submit" value="Submit" style="height: 50px; background-color: orange; width: 120px; padding: 10px;">
+            </td>
+            <td>
+                <input type="reset" value="Reset" style="height: 50px; width: 120px; padding: 10px; background-color: orange;">
+            </td>
+            <td></td>
+        </tr>
+    </table>
+
+</body>
+</html>
