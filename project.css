@@ -1,0 +1,215 @@
+﻿.main_header {
+    background-image: url("https://mediaassets.theindychannel.com/photo/2018/05/23/python_1527131197830_87853910_ver1.0_640_480.JPG");
+    color: wheat;
+    margin: 0px;
+    padding: 45px;
+    font-size:35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:right;
+
+}
+ body{
+     margin :0;
+     padding:0;
+ }
+
+ .footer{
+     background-color:black;
+     color:wheat;
+     text-align:center;
+     padding:25px;
+     margin:auto;
+     font-family:Arial,sans-serif;
+
+ }
+
+ .main_nav{
+     background-color:maroon;
+     padding:5px;
+ }
+ .main_nav ul li{
+     display:inline; 
+     padding:5px;
+     margin:5px;
+     font-size  :18px;
+     font-family:'Old English Text MT',sans-serif;
+
+ }
+    .main_nav ul li a {
+        text-decoration: none;
+        color: wheat;
+    }
+    .main_nav ul li a:hover{
+        background-color:lightcoral;
+        padding:20px;
+        box-shadow:0 0 15px grey;
+
+    }
+    .main_nav ul li a.active{
+        background-color:antiquewhite;
+        color:maroon;
+        padding:22px;
+    }
+
+    .home_section .home1 h2{
+        background-color:aqua;
+        color:maroon;
+        font-family:'Old English Text MT',sans-serif;
+        font-size:20px;
+        padding:10px;
+        margin:auto;
+        text-align:center;
+        width:200px;
+        border-radius:20px;
+    }
+
+    .home_section .home1{
+        padding:10px;
+        margin:10px;
+    }
+
+    .home_section .home2{
+        padding:10px;
+        margin:10px
+       
+    }
+    .home_section{
+        background-color:antiquewhite
+    }
+    .home_section .home2 table{
+        border:2px solid maroon;
+        width:500px;
+        border-radius:30px;
+        padding:20px;
+        margin:auto;
+        box-shadow:0 0 25px grey;
+        
+    }
+
+.python_section {
+    background-image: url("0111865.jpg");
+    font-size:20px;
+    color:black;
+    padding:28px;
+    font-family:cursive,sans-serif;
+    transition:all 4s linear;
+}
+
+.python_section .python1 h2{
+    background-color:tomato;
+    width:500px;
+    text-align:center;
+    border-radius:25px;
+    padding:6px;
+    margin:auto;
+    
+}
+.python_section .python2 {
+    border:2px solid aqua;  
+    margin:20px;
+    padding:20px;
+    border-radius:25px;
+
+}
+
+.django_section {
+    background-image: url("0111865.jpg");
+    font-size: 20px;
+    color: black;
+    padding: 28px;
+    font-family: cursive,sans-serif;
+    transition: all 4s linear;
+}
+
+    .django_section .django1 h2 {
+        background-color: orangered;
+        width: 500px;
+        text-align: center;
+        border-radius: 25px;
+        padding: 6px;
+        margin: auto;
+    }
+
+    .django_section .django2 {
+        border: 3px solid orangered;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 25px;
+    }
+
+    .course_section{
+        background-color:aquamarine;
+        padding:15px;
+        margin:0px;
+    }
+        .course_section .course1 {
+            background-color: brown;
+            color: wheat;
+            text-align: center;
+            padding: 2px;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 200px;
+            border-radius: 20px;
+        }
+        .course_section .course1 h2{
+            font-family:'Old English Text MT',sans-serif;
+            font-size:20px;
+        }
+
+        .course_section .course2 table{
+            border:2px solid orangered;
+            background-color:antiquewhite;
+            text-align:center;
+            padding:8px;
+            margin:auto;
+            box-shadow:0 0 15px maroon;
+            margin-bottom:25px;
+        }
+        .course_section .course2 table td {
+            border: 2px solid red;
+            padding: 10px;
+            text-align: center;
+            box-shadow:0 0 15px black;
+            font-family: 'Old English Text MT',sans-serif;
+            font-size: 15px;
+
+        }
+
+
+
+                                                                                                                                                                                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
